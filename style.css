@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #f7f9f7f9;
+    background-image: url(./image/photo_2023-02-12_21-05-47.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+}
+
+#menu img {
+    margin-left: 140px;
+}
+
+#menu u1 {
+    margin-right: 75px;
+}
+
+#menu u1 li {
+    list-style: none;
+    display: inline;
+}
+
+#menu u1 li a {
+    display: inline-block;
+    font-family: Monospace;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: inherit;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    transition: color 0.5s linear;
+
+
+}
+
+#menu u1 li a:hover {
+    color: coral;
+}
+
+#content {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: white;
+    overflow: hidden;
+}
+
+#text {
+    margin-top: 30px;
+    font-family: Sans-serif;
+    position: relative;
+
+}
+
+
+
+.text h1 {
+    color: #0e7162;
+    font-size: 60px;
+    line-height: 1.3em;
+
+}
+
+.text p {
+    color: #fcfbfb;
+    font-size: 14px;
+    line-height: 2em;
+
+}
+
+#text input {
+
+    margin-top: 10px;
+    width: 20%;
+    border: none;
+
+    padding: 15px;
+    background-color: #eff1f1;
+    cursor: pointer;
+
+}
+
+button {
+
+
+    text-align: center;
+    width: 170px;
+    border-radius: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: block;
+    margin: auto;
+    border: 3px solid #000000;
+    background-image: linear-gradient(30deg, #438ec0 50%, transparent 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    cursor: pointer;
+    transition: background 300ms ease-in-out;
+
+}
+
+button:hover {
+    background-position: 100%;
+    color: #064d50;
+
+}
